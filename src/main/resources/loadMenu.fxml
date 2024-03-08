@@ -55,7 +55,7 @@
             <SeparatorMenuItem mnemonicParsing="false" />
             <MenuItem mnemonicParsing="false" text="Preferences…" />
             <SeparatorMenuItem mnemonicParsing="false" />
-            <MenuItem mnemonicParsing="false" onAction="#quit" text="Quit" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
           </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Help">
@@ -79,7 +79,7 @@
                         <Insets top="30.0" />
                      </VBox.margin>
                   </TextField>
-                  <Button fx:id="confirm" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#confirmation" text="Confirm" textAlignment="CENTER">
+                  <Button fx:id="confirm" alignment="CENTER" mnemonicParsing="false" text="Confirm" textAlignment="CENTER">
                      <VBox.margin>
                         <Insets top="30.0" />
                      </VBox.margin>
